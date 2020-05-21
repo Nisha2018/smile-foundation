@@ -81,7 +81,9 @@ figure {
     height: 100%;
     transition: all 0.5s linear;
     vertical-align: bottom;
-    /*filter: grayscale(80%);*/
+    filter: grayscale(50%) brightness(85%);
+    object-fit: cover;
+    object-position: center;
 }
 
 .event {
@@ -178,6 +180,10 @@ figcaption a {
     z-index: 9;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+.fixed-bar a{
+    color: #212529;
 }
 
 
